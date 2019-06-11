@@ -16,6 +16,10 @@ Start this example downloading next repositoires:
     gradle build
     gradle bootRun
 
+#### For quickly start, after you clone all repositoires you can run the next command in the directory  *gradle-composite-core-models*
+
+    gradle bootRun
+
 #### Test the App
 > http://localhost:8080/v1/core/person
 

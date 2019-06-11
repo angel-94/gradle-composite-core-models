@@ -8,3 +8,6 @@
  */
 
 rootProject.name = 'gradle-composite-core-models'
+
+includeBuild '../gradle-core'
+includeBuild '../gradle-models'

@@ -4,3 +4,21 @@
  * This is a general purpose Gradle build.
  * Learn how to create Gradle builds at https://guides.gradle.org/creating-new-gradle-builds/
  */
+plugins {
+    id 'idea'
+}
+
+
+
+defaultTasks 'bootRun'
+
+// tag::run[]
+task bootRun {
+    dependsOn gradle.includedBuild('gradle-core').task(':bootRun')
+}
+// end::run[]
+
+task checkAll {
+    dependsOn gradle.includedBuild('gradle-core').task(':check')
+    dependsOn gradle.includedBuild('gradle-models').task(':check')
+}
