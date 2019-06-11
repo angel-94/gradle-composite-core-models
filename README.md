@@ -1,7 +1,7 @@
 # gradle-composite-module-multi-repository
 Gradle example multiple module in different repository
 
-## Example a composite buld
+## Example a composite build
 
 Start this example downloading next repositoires:
     
