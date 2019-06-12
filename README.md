@@ -3,20 +3,24 @@ Gradle example multiple module in different repository
 
 ## Example a composite buld
 
-Start this example downloading next repositoires:
-    
-#### Clone using git
+Start this example with the next commands
+
+    mkdir gradle-composite-example
+    cd gradle-composite-example
+    git clone https://github.com/angel-94/gradle-composite-core-models
+
+Downloading next repositoires, clone using git
     
     git clone https://github.com/angel-94/gradle-core
     git clone https://github.com/angel-94/gradle-models
 
-#### Build project
+Build project
 
     cd gradle-core
     gradle build
     gradle bootRun
 
-#### For quickly start, after you clone all repositoires you can run the next command in the directory  *gradle-composite-core-models*
+ For quickly start, after you clone all repositoires you can run the next command in the directory  *gradle-composite-core-models*
 
     gradle bootRun
 
