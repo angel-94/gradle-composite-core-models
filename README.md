@@ -3,7 +3,7 @@ Gradle example multiple module in different repository
 
 ## Example a composite build
 
-Start this example with the next commands
+Start this example with the below commands
 
     mkdir gradle-composite-example
     cd gradle-composite-example
